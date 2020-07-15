@@ -14,7 +14,7 @@ import (
 	"strings"
 
 	"github.com/google/go-github/github"
-	"github.com/hugozhu/godingtalk"
+	"github.com/go-codes/godingtalk"
 
 	"crypto/hmac"
 	"crypto/sha1"

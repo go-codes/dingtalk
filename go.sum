@@ -25,8 +25,8 @@ github.com/googleapis/gax-go/v2 v2.0.5/go.mod h1:DWXyrwAJ9X0FpwwEdw+IPEYBICEFu5m
 github.com/hashicorp/golang-lru v0.5.0/go.mod h1:/m3WP610KZHVQ1SGc6re/UDhFvYD7pJ4Ao+sR/qLZy8=
 github.com/hashicorp/golang-lru v0.5.1 h1:0hERBMJE1eitiLkihrMvRVBYAkpHzc/J3QdDN+dAcgU=
 github.com/hashicorp/golang-lru v0.5.1/go.mod h1:/m3WP610KZHVQ1SGc6re/UDhFvYD7pJ4Ao+sR/qLZy8=
-github.com/hugozhu/godingtalk v0.0.0-20191002020809-5d8f8113202f h1:8bri/HcExXW7ZkYqtOT3xFQjeAc218omINbATJtQxvo=
-github.com/hugozhu/godingtalk v0.0.0-20191002020809-5d8f8113202f/go.mod h1:7CgsAmE+hL/0bTkTYgbaeppPXxVTjP9xGmhbVM/KC5o=
+github.com/go-codes/godingtalk v0.0.0-20191002020809-5d8f8113202f h1:8bri/HcExXW7ZkYqtOT3xFQjeAc218omINbATJtQxvo=
+github.com/go-codes/godingtalk v0.0.0-20191002020809-5d8f8113202f/go.mod h1:7CgsAmE+hL/0bTkTYgbaeppPXxVTjP9xGmhbVM/KC5o=
 github.com/ipandtcp/godingtalk v0.0.0-20180410032244-ca3d6ac197fb h1:EGpajq/ZTe+14bXq+5HLDWLU8z9Sw61gNVrwT9ObR1w=
 github.com/ipandtcp/godingtalk v0.0.0-20180410032244-ca3d6ac197fb/go.mod h1:3umLciE1jBnh2LgrL15R2zbEe+HVPRZXnlSjjb/dYiw=
 github.com/jstemmer/go-junit-report v0.0.0-20190106144839-af01ea7f8024/go.mod h1:6v2b51hI/fHJwM22ozAgKL4VKDeJcHhJFhtBdhmNjmU=

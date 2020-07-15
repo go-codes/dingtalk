@@ -9,7 +9,7 @@ import (
 	"os"
 	"time"
 
-	dd "github.com/hugozhu/godingtalk"
+	dd "github.com/go-codes/godingtalk"
 
 	"golang.org/x/net/context"
 	"golang.org/x/oauth2"

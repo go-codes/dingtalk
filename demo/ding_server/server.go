@@ -9,7 +9,7 @@ import (
 	"path"
 	"time"
 
-	"github.com/hugozhu/godingtalk"
+	"github.com/go-codes/godingtalk"
 )
 
 func GetTemplate(tpl string) *template.Template {
