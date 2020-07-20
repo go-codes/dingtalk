@@ -117,21 +117,21 @@ func NewDingTalkClient(corpID string, corpSecret string) *DingTalkClient {
 //RefreshAccessToken is to get a valid access token
 func (c *DingTalkClient) RefreshAccessToken() error {
 	var data AccessTokenResponse
-	err := c.Cache.Get(&data)
-	if err == nil {
-		c.AccessToken = data.AccessToken
-		return nil
-	}
+	//err := c.Cache.Get(&data)
+	//if err == nil {
+	//	c.AccessToken = data.AccessToken
+	//	return nil
+	//}
 
 	params := url.Values{}
 	params.Add("corpid", c.CorpID)
 	params.Add("corpsecret", c.CorpSecret)
-	err = c.httpRPC("gettoken", params, nil, &data)
+	err := c.httpRPC("gettoken", params, nil, &data)
 	if err == nil {
 		c.AccessToken = data.AccessToken
 		data.Expires = data.Expires | 7200
 		data.Created = time.Now().Unix()
-		err = c.Cache.Set(&data)
+		// err = c.Cache.Set(&data)
 	}
 	return err
 }
